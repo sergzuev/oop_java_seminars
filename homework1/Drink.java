@@ -2,7 +2,7 @@ package homework1;
 
 import java.util.ArrayList;
 
-public class Drink {
+public class drink {
     private String name;
     private int volume;
 

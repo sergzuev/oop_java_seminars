@@ -10,14 +10,14 @@ public class Main {
         HotDrink hotDrink = new HotDrink();
 
         hotDrink.setName("coffee");
-        hotDrink.setVolume(200);
-        hotDrink.setTemperature(80);
+        hotDrink.setVolume(190);
+        hotDrink.setTemperature(85);
         finishProd = hotMachine.getProduct(hotDrink.getName(), hotDrink.getVolume(), hotDrink.getTemperature());
         hotMachine.finishProduct(finishProd);
 
         hotDrink.setName("tea");
-        hotDrink.setVolume(300);
-        hotDrink.setTemperature(85);
+        hotDrink.setVolume(195);
+        hotDrink.setTemperature(90);
         finishProd = hotMachine.getProduct(hotDrink.getName(), hotDrink.getVolume(), hotDrink.getTemperature());
         hotMachine.finishProduct(finishProd);
     }

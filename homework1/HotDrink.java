@@ -1,6 +1,6 @@
 package homework1;
 
-public class HotDrink extends Drink {
+public class HotDrink extends drink {
     private int temperature;
 
     public int getTemperature() {
