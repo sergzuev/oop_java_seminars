@@ -1,15 +1,13 @@
 package homework2;
 
-
-
 import java.util.Scanner;
 
-public class Process extends FuncResult {
-    
+public class Processing extends FuncResult {
+
     public void Start() {
 
         Sourse sourse = new Sourse();
-        Scan scan = new Scan();
+        Skan scan = new Skan();
         System.out.println("Для выхода - exit");
         System.out.println();
         System.out.println("Начало работы:");
@@ -34,7 +32,7 @@ public class Process extends FuncResult {
                 flag = false;
             }
         }
-        
+
     }
 
 }

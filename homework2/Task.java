@@ -3,7 +3,7 @@ package homework2;
 public class Task {
     public static void main(String[] args) {
 
-        process process = new process();
+        Processing process = new Processing();
         process.Start();
     }
 }

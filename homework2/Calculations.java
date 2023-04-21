@@ -1,6 +1,6 @@
 package homework2;
 
-public class Calculate {
+public interface Calculations {
 
     double addition(double num1, double num2);
 

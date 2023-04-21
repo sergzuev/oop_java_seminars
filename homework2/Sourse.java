@@ -1,4 +1,4 @@
-public package homework2;
+package homework2;
 
 public class Sourse {
     private double num;
@@ -19,5 +19,4 @@ public class Sourse {
     public void setOperator(String operator) {
         this.operator = operator;
     }
-} 
-
+}

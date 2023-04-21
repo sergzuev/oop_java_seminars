@@ -2,12 +2,10 @@ package homework2;
 
 import java.util.Scanner;
 
-public class Scan {
-    
-    // process pr = new process();
+public class Skan {
+    // Processing pr = new Processing();
     // public Object sc;
 
-    
     boolean isNum(String arg) {
         try {
             Double.parseDouble(arg);
@@ -64,4 +62,3 @@ public class Scan {
         return Double.parseDouble(element2);
     }
 }
-
