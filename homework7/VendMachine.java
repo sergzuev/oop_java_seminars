@@ -1,5 +1,8 @@
 package homework7;
 
-public class VendMachine {
+
+public interface VendMachine {
+
+    public void finishProduct();
     
 }
