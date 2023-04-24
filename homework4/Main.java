@@ -6,8 +6,8 @@ package homework4;
 public class Main {
     public static void main(String[] args) {
 
-        HotDrinkMachine<Drink> drink = new HotDrinkMachine<>();
-        HotDrinkMachine<HotDrink> hotDrink = new HotDrinkMachine<>();
+        DrinkMachine<Drink> drink = new DrinkMachine<>();
+        DrinkMachine<HotDrink> hotDrink = new DrinkMachine<>();
         drink.setProduct(new Drink("'эспрессо", 200));
         drink.setProduct(new Drink("капучино", 200));
         hotDrink.setProduct(new HotDrink("чай", 250, 85));

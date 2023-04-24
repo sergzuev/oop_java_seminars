@@ -3,7 +3,7 @@ package homework4;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HotDrinkMachine<T> implements VendMachine {
+public class DrinkMachine<T> implements VendMachine {
     private T drinkMachine;
     private List<T> finishProduct = new ArrayList<>();
 
